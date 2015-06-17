@@ -1,17 +1,5 @@
 language: c++
 compiler: g++
 script:  
- - cd ./thirdparty/gflags-2.0
- - ls
- - ./configure 
- - make 
- - make install 
- - cd ../glog-0.3.3 
- - ls
- - ./configure 
- - make 
- - make install 
- - cd ..
- - cd ..
- - ls
- -  ./build.sh init && ./configure --perfix=Jackson1992/cpp_parse && make && make install
+ - ./build.sh init 
+ - ./configure --perfix=Jackson1992/cpp_parse/install && make && make install
