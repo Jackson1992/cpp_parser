@@ -1,0 +1,3 @@
+language: c++
+compiler: g++
+script : ./build.sh init && ./configure && make && make install
