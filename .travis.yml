@@ -2,4 +2,4 @@ language: c++
 compiler: g++
 script:  
  - ./build.sh init 
- - ./configure --perfix=Jackson1992/cpp_parse/install && make && make install
+ - ./configure --prefix=Jackson1992/cpp_parse/install && make && make install
