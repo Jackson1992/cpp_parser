@@ -2,6 +2,7 @@ language: c++
 compiler: g++
 script:  
  - cd ./thirdparty/gflags-2.0 
+ - ls
  - ./configure && make && make install 
  - cd ../thirdparty/glog-0.3.3 
  - ./configure && make && make install 
